@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/HAVux/jenkins-docker.git'
+                git branch: 'main', url: 'https://github.com/HAVux/jenkins-docker'
             }
         }
         stage('Build'){
