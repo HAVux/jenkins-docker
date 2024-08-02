@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/HAVux/Jenkins-github.git'
+                git 'https://github.com/HAVux/jenkins-docker.git'
             }
         }
         stage('Build'){
